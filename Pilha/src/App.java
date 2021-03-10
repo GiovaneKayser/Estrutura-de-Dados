@@ -1,5 +1,6 @@
-import service.Pilha;
-;public class App {
+package Pilha.src;
+import Pilha.src.service.Pilha;
+public class App {
     public static void main(String[] args) throws Exception {
         Pilha pilha = new Pilha(3);
         pilha.Adicionar("a");
